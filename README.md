@@ -1,3 +1,5 @@
+
+https://github.com/omkarsalunkheatp1211/personal_portfolio_website/assets/96873232/6d1bd45a-dcc2-4eb9-a3cd-2e1c8c63f9f4
 # Personal Portfolio Website
 
 This is a personal portfolio website project that showcases your skills, projects, and information.
@@ -19,8 +21,9 @@ List the key features of your personal portfolio website project here.
 
 ## Preview
 
+**Live Demo:** [Omkar's Portfolio](https://omkarsalunkheatp1211.github.io/personal_portfolio_website/index.html)
+https://github.com/omkarsalunkheatp1211/personal_portfolio_website/assets/96873232/90e5b44e-666d-459b-82fb-c5cf44c7f3e0
 
-**Live Demo:** [Omkar's Portfolio](https://your-portfolio-website-url.com)
 
 ## Technologies Used
 
@@ -29,13 +32,18 @@ List the technologies and programming languages used in your personal portfolio 
 - HTML
 - CSS
 - JavaScript
-- Bootstrap (if used)
-- ...
 
 ## Setup
 
-Provide instructions on how to set up and run your personal portfolio website locally. Include any prerequisites, installation steps, and usage guidelines.
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/personal_portfolio_website.git
+Open your terminal or command prompt and Clone the repository to your local machine:
+```javascript
+git clone https://github.com/omkarsalunkheatp1211/personal_portfolio_website.git
+```
+Go to the personal_portfolio_website directory
+```javascript
+ cd personal_portfolio_website
+```
+Run index.html file.
+```javascript
+.\index.html
+```
