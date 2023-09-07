@@ -43,13 +43,14 @@ nav ul li a:hover {
     background-color: #12123e;
     color: white;
     padding: 5px 15px;
-    border: 2px solid white;
+    border: 2px solid gray;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
 }
 
 .login-button a:hover {
+    border: 2px solid white;
     font-weight: bold;
     color: white;
     background-color: #1e2167;
@@ -60,13 +61,14 @@ nav ul li a:hover {
     background-color: #12123e;
     color: white;
     padding: 5px 15px;
-    border: 2px solid white;
+    border: 2px solid gray;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
 }
 
 .signup-button a:hover {
+    border: 2px solid white;
     font-weight: bold;
     color: white;
     background-color: #1e2167;
@@ -79,14 +81,16 @@ main hr {
     margin: 60px 84px;
 }
 
-.left {
+.left a{
+    color: white;
+    text-decoration: none;
     margin-left: 35px;
     font-size: 1.5rem;
     cursor: pointer;
     font-weight: bold;
 }
 
-.left:hover {
+.left a:hover {
     font-size: 1.53rem;
     color: rgb(153, 153, 226);
 
@@ -115,7 +119,7 @@ main hr {
     padding: 12px;
     background: #000021;
     color: white;
-    border: 2px solid white;
+    border: 2px solid gray;
     font-weight: bold;
     border-radius: 7px;
     font-size: 15px;
@@ -124,6 +128,7 @@ main hr {
 
 .leftSection .btn:hover {
     background: #1e2167;
+    border: 2px solid white;
 }
 
 .rightSection img {
@@ -200,13 +205,13 @@ main hr {
     border-top: 1px solid #323232;
 }
 
-.footer h3 {
+.footer-first h3 a {
     padding: 10px;
     font-size: 24px;
     display: inline;
 }
 
-.footer h3:hover {
+.footer-first h3 a:hover {
     color: rgb(125, 141, 222);
     font-size: 25px;
 }
@@ -292,7 +297,7 @@ h1 {
     padding: 10px;
     background: #000021;
     color: white;
-    border: 2px solid white;
+    border: 2px solid gray;
     font-weight: bold;
     border-radius: 5px;
     font-size: 10px;
@@ -301,6 +306,7 @@ h1 {
 }
 
 .button:hover {
+    border: 2px solid white;
     background: #1e2167;
 }
 

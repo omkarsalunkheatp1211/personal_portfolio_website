@@ -39,14 +39,16 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-.left {
+.left a{
+    color: white;
+    text-decoration: none;
     margin-left: 35px;
     font-size: 1.5rem;
     cursor: pointer;
     font-weight: bold;
 }
 
-.left:hover {
+.left a:hover {
     font-size: 1.53rem;
     color: rgb(153, 153, 226);
 
@@ -57,13 +59,14 @@ nav ul li a:hover {
     background-color: #12123e;
     color: white;
     padding: 5px 15px;
-    border: 2px solid white;
+    border: 2px solid gray;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
 }
 
 .login-button a:hover {
+    border: 2px solid white;
     font-weight: bold;
     color: white;
     background-color: #1e2167;
@@ -73,13 +76,14 @@ nav ul li a:hover {
     background-color: #12123e;
     color: white;
     padding: 5px 15px;
-    border: 2px solid white;
+    border: 2px solid gray;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
 }
 
 .signup-button a:hover {
+    border: 2px solid white;
     font-weight: bold;
     color: white;
     background-color: #1e2167;
@@ -140,12 +144,20 @@ nav ul li a:hover {
 }
 
 .button-group button {
-    padding: 10px 20px;
-    background: #3498db;
-    border: none;
-    border-radius: 5px;
+    background-color: #12123e;
     color: white;
-    cursor: pointer;
+    padding: 5px 15px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button-group button:hover {
+    border: 2px solid rgb(255, 255, 255);
+    font-weight: bold;
+    color: white;
+    background-color: #1e2167;
 }
 
 /* footer */
@@ -158,7 +170,19 @@ nav ul li a:hover {
     background-color: #0a0a23;
     border-top: 1px solid #323232;
     font-size: 14px;
-    color: #ffffff;
+}
+
+.footer h3 a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 24px;
+    display: inline;
+}
+
+.footer h3 a:hover {
+    color: rgb(125, 141, 222);
+    font-size: 25px;
 }
 
 .footer p {
@@ -167,6 +191,36 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
-.footer h3:hover {
-    color: gray;
+.footer ul {
+    list-style: none;
+    padding: 0;
+    display: inline;
+}
+
+.footer li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer img {
+    padding: 0 10px;
+    margin: 0 5px;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+}
+
+.footer img:hover {
+
+    width: 39px;
+    height: 37px;
+}
+
+.footer-second {
+    text-align: right;
 }
