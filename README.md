@@ -20,7 +20,7 @@ List the key features of your personal portfolio website project here.
 ## Preview
 
 **Live Demo:** [Omkar's Portfolio](https://omkarsalunkheatp1211.github.io/personal_portfolio_website/index.html){:target="_blank"}
-[Omkar's Portfolio]([https://example.com](https://omkarsalunkheatp1211.github.io/personal_portfolio_website/index.html)){:target="_blank"}
+
 
 
 
