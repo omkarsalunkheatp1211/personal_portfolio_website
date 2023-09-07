@@ -22,7 +22,7 @@ List the key features of your personal portfolio website project here.
 ## Preview
 
 **Live Demo:** [Omkar's Portfolio](https://omkarsalunkheatp1211.github.io/personal_portfolio_website/index.html)
-https://github.com/omkarsalunkheatp1211/personal_portfolio_website/assets/96873232/90e5b44e-666d-459b-82fb-c5cf44c7f3e0
+
 
 
 ## Technologies Used
