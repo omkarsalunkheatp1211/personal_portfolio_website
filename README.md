@@ -24,7 +24,6 @@ List the key features of your personal portfolio website project here.
 
 
 
-https://github.com/omkarsalunkheatp1211/personal_portfolio_website/assets/96873232/8d94d571-a9f4-4362-94cc-20b9f07e1f7f
 
 
 
