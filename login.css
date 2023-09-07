@@ -17,6 +17,7 @@ nav {
     background-color: rgb(18, 18, 62);
 }
 
+/* nav */
 nav ul {
     display: flex;
     justify-content: center;
@@ -57,7 +58,7 @@ nav ul li a:hover {
     color: white;
     padding: 5px 15px;
     border: 2px solid white;
-    border-radius: 5px ;
+    border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
 }
@@ -68,13 +69,12 @@ nav ul li a:hover {
     background-color: #1e2167;
 }
 
-/* Style for signup button */
 .signup-button a {
     background-color: #12123e;
     color: white;
     padding: 5px 15px;
     border: 2px solid white;
-    border-radius: 5px ;
+    border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
 }
@@ -85,6 +85,7 @@ nav ul li a:hover {
     background-color: #1e2167;
 }
 
+/* container */
 .container {
     background: rgba(0, 0, 33, 0.237);
     padding: 20px;
@@ -146,13 +147,15 @@ nav ul li a:hover {
     color: white;
     cursor: pointer;
 }
+
+/* footer */
 .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
     padding: 10px 0;
-    background-color:#0a0a23;
+    background-color: #0a0a23;
     border-top: 1px solid #323232;
     font-size: 14px;
     color: #ffffff;

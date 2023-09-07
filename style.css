@@ -38,15 +38,13 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Add these styles at the end of your existing CSS file */
-
 /* Style for login button */
 .login-button a {
     background-color: #12123e;
     color: white;
     padding: 5px 15px;
     border: 2px solid white;
-    border-radius: 5px ;
+    border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
 }
@@ -63,7 +61,7 @@ nav ul li a:hover {
     color: white;
     padding: 5px 15px;
     border: 2px solid white;
-    border-radius: 5px ;
+    border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
 }
@@ -206,7 +204,6 @@ main hr {
     padding: 10px;
     font-size: 24px;
     display: inline;
-    /* Add this line to make it inline */
 }
 
 .footer h3:hover {
@@ -218,7 +215,6 @@ main hr {
     list-style: none;
     padding: 0;
     display: inline;
-    /* Add this line to make the list inline */
 }
 
 .footer li {
@@ -240,7 +236,7 @@ main hr {
 }
 
 .footer img:hover {
-    
+
     width: 39px;
     height: 37px;
 }
@@ -257,13 +253,12 @@ main hr {
 footer .footer-rights {
     font-size: 10px;
     color: gray;
-    
+
 }
 
 /* about */
 
 .aboutMeSection {
-    /* background-color: #f5f5f5; */
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -272,7 +267,6 @@ footer .footer-rights {
 
 .aboutMeSection h2 {
     font-size: 2.5rem;
-    /* font-size: 24px; */
     color: #c7c7c7;
     margin-bottom: 20px;
 }
