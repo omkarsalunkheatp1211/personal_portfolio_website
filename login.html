@@ -15,14 +15,12 @@
 <body>
     <header>
         <nav>
-            <div class="left"><a href="/index.html">Omkar's Portfolio</a></div>
+            <div class="left"><a href="index.html">Omkar's Portfolio</a></div>
             <div class="right">
                 <ul>
                     <li> <a href="index.html"> Home </a></li>
                     <li> <a href="about.html"> About </a></li>
-                    <!-- <li> <a href="Services.html"> Services </a></li> -->
                     <li> <a href="Projects.html"> Projects </a></li>
-                    <!-- <li> <a href="Contact.html"> Contact Me </a> </li> -->
                     <li class="login-button"><a href="login.html">Login</a></li>
                     <li class="signup-button"><a href="signup.html">Signup</a></li>
                 </ul>
@@ -32,27 +30,34 @@
     <div class="container">
         <div class="form">
             <h2>Login</h2>
-
             <!-- Login Section -->
             <div id="login">
-                <form>
+                <form onsubmit="validateLogin(event)">
                     <div class="input-group">
                         <label for="login-username">Username or Email ID</label>
-                        <input type="text" id="login-username" name="login-username" required>
+                        <input type="text" id="login-username" name="login-username" required placeholder="omkar">
                     </div>
                     <div class="input-group">
                         <label for="login-password">Password</label>
-                        <input type="password" id="login-password" name="login-password" required>
+                        <div class="password-input">
+                            <input type="password" id="login-password" name="login-password" required
+                                placeholder="Qwerty@123">
+                            <button id="password-toggle" class="password-toggle"
+                                onclick="togglePasswordVisibility('login-password')">Show/Hide Password</button>
+                        </div>
                     </div>
                     <div class="button-group">
+                        <button type="reset">Reset</button>
                         <button type="submit">Submit</button>
                     </div>
                 </form>
+                <div id="login-message"></div>
             </div>
         </div>
     </div>
     <footer class="footer">
-        <h3><a href="#">Omkar's Developer Portfolio</a></h3>
+        <h3><a href="#">Omkar's
+                Developer Portfolio</a></h3>
         <p>www.omkarsPortfolop.com | All rights reserved</p>
 
         <div class="footer-second">
@@ -67,16 +72,7 @@
             </ul>
         </div>
     </footer>
-    <script>
-        function togglePasswordVisibility(passwordFieldId) {
-            var passwordField = document.getElementById(passwordFieldId);
-            if (passwordField.type === 'password') {
-                passwordField.type = 'text';
-            } else {
-                passwordField.type = 'password';
-            }
-        }
-    </script>
+    <script src="login.js"></script>
 </body>
 
 </html>

@@ -39,7 +39,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-.left a{
+.left a {
     color: white;
     text-decoration: none;
     margin-left: 35px;
@@ -98,13 +98,18 @@ nav ul li a:hover {
     text-align: center;
     width: 60%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin: auto;
+    /* Center horizontally */
+    margin-top: 10%;
+    /* Adjust the top margin to leave space at the top */
+    margin-bottom: 10%;
+    /* Adjust the bottom margin to leave space at the bottom */
 }
+
+
 
 .form {
     width: 45%;
@@ -132,12 +137,12 @@ nav ul li a:hover {
     margin-bottom: 5px;
 }
 
-.show-password {
+/* .show-password {
     display: inline-block;
     margin-left: 10px;
     cursor: pointer;
     color: #3498db;
-}
+} */
 
 .button-group {
     margin-top: 20px;
@@ -223,4 +228,22 @@ nav ul li a:hover {
 
 .footer-second {
     text-align: right;
+}
+
+/* show hide button */
+
+.password-input button {
+    margin-top: 20px;
+    background-color: rgb(0, 0, 33);
+    color: white;
+    padding: 5px 15px;
+    border: 2px solid rgb(0, 0, 33);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.password-input button:hover {
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
 }

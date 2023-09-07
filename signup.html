@@ -15,7 +15,7 @@
 <body>
     <header>
         <nav>
-            <div class="left"><a href="/index.html">Omkar's Portfolio</a></div>
+            <div class="left"><a href="index.html">Omkar's Portfolio</a></div>
             <div class="right">
                 <ul>
                     <li> <a href="index.html"> Home </a></li>
@@ -34,10 +34,11 @@
             <h2>Signup</h2>
             <!-- Signup Section -->
             <div id="signup">
-                <form>
+                <form onsubmit="submitForm(event)" novalidate>
                     <div class="input-group">
                         <label for="signup-firstname">Full Name</label>
-                        <input type="text" id="signup-fullname" name="signup-fullname" required>
+                        <input type="text" id="signup-fullname" name="signup-fullname" required
+                            placeholder="Please enter Full Name">
                     </div>
                     <div class="input-group">
                         <label for="signup-dob">Date of Birth</label>
@@ -45,27 +46,45 @@
                     </div>
                     <div class="input-group">
                         <label for="signup-address">Address</label>
-                        <input type="text" id="signup-address" name="signup-address" required>
+                        <input type="text" id="signup-address" name="signup-address" required
+                            placeholder="Please enter Address">
                     </div>
 
                     <div class="input-group">
                         <label for="signup-email">Email ID</label>
-                        <input type="email" id="signup-email" name="signup-email" required>
+                        <input type="email" id="signup-email" name="signup-email" required
+                            placeholder="Please enter Email ID">
                     </div>
+
                     <div class="input-group">
                         <label for="signup-password">Password</label>
-                        <input type="password" id="signup-password" name="signup-password" required>
+                        <div class="password-input">
+                            <input type="password" id="signup-password" name="signup-password" required
+                                placeholder="Please enter password">
+                            <button id="password-toggle" class="password-toggle"
+                                onclick="togglePasswordVisibility('signup-password')">Show/Hide Password</button>
+                        </div>
+                        <div id="password-error" class="password-error" style="display: none;">
+                            Please enter a strong password (e.g., Qwerty@123).
+                        </div>
                     </div>
+
+
+
                     <div class="button-group">
+                        <button type="reset">Reset</button>
                         <button type="submit">Submit</button>
                     </div>
                 </form>
+
+                <div id="success-message" style="display: none;">Your account is Created Successfully!</div>
+
             </div>
         </div>
     </div>
     <footer class="footer">
         <h3><a href="#">Omkar's
-                    Developer Portfolio</a></h3>
+                Developer Portfolio</a></h3>
         <p>www.omkarsPortfolop.com | All rights reserved</p>
 
         <div class="footer-second">
@@ -80,16 +99,7 @@
             </ul>
         </div>
     </footer>
-    <script>
-        function togglePasswordVisibility(passwordFieldId) {
-            var passwordField = document.getElementById(passwordFieldId);
-            if (passwordField.type === 'password') {
-                passwordField.type = 'text';
-            } else {
-                passwordField.type = 'password';
-            }
-        }
-    </script>
+    <script src="signup.js"></script>
 </body>
 
 </html>
