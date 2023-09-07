@@ -1,5 +1,3 @@
-
-https://github.com/omkarsalunkheatp1211/personal_portfolio_website/assets/96873232/6d1bd45a-dcc2-4eb9-a3cd-2e1c8c63f9f4
 # Personal Portfolio Website
 
 This is a personal portfolio website project that showcases your skills, projects, and information.
