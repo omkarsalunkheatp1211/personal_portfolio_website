@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-This is a personal portfolio website project that showcases your skills, projects, and information.
+This is a personal portfolio website project that showcases my skills, projects, and information.
 
 ## Table of Contents
 
@@ -13,9 +13,9 @@ This is a personal portfolio website project that showcases your skills, project
 
 List the key features of your personal portfolio website project here.
 
-- Feature 1: Display personal information and contact details
-- Feature 2: Showcase your skills and expertise
-- Feature 3: Highlight your projects with descriptions and links
+- Display personal information and contact details
+- Showcase my skills and expertise
+- Highlight my projects with descriptions and links ( Download and Live Demo links)
 
 ## Preview
 
