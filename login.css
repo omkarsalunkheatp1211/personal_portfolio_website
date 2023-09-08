@@ -247,3 +247,40 @@ nav ul li a:hover {
     border: 2px solid rgb(255, 255, 255);
     color: white;
 }
+
+/* responsive */
+@media screen and (max-width:1400px) {
+    body {
+        min-height: unset;
+        min-width: fit-content;
+    }
+
+    .secondSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+        height: 141vh;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    nav {
+        height: 100px;
+        flex-direction: column;
+    }
+
+    nav ul {
+        margin-bottom: 10px;
+    }
+
+    .login-button a {
+        padding: 1px 5px;
+    }
+
+    .signup-button a {
+        padding: 1px 5px;
+    }
+}
