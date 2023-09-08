@@ -7,9 +7,8 @@ body {
     background-color: rgb(0, 0, 33);
     color: white;
     font-family: 'Poppins', sans-serif;
-    /*  */
     min-height: 100vh;
-    /* Set the minimum height of the body to 100% of the viewport height */
+    min-width: fit-content;
     display: flex;
     flex-direction: column;
 }
@@ -349,7 +348,7 @@ h1 {
 
 /* responsive */
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width: 1400px) {
     body {
         min-height: unset;
         min-width: fit-content;
@@ -404,7 +403,7 @@ h1 {
         flex-direction: column;
         align-items: center;
         margin-bottom: 50px;
-        height: 141vh;
+        height: auto; /* Change the height to auto for responsiveness */
     }
 
     .login-button a {
@@ -419,11 +418,9 @@ h1 {
         top: 164px;
         left: -17px;
     }
-
-
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width: 1100px) {
     .leftSection {
         width: 100% !important;
         display: flex;
@@ -438,10 +435,9 @@ h1 {
         justify-content: center;
         margin-bottom: 50px;
     }
-
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
     .leftSection {
         width: 100% !important;
         display: flex;
@@ -456,5 +452,4 @@ h1 {
         justify-content: center;
         margin-bottom: 50px;
     }
-
 }
