@@ -1,16 +1,21 @@
 // show/hide password 
-function togglePasswordVisibility(inputId) {
-    var passwordInput = document.getElementById(inputId);
-    var passwordToggle = document.getElementById("password-toggle");
+function togglePasswordVisibility(passwordFieldId) {
+    var passwordField = document.getElementById(passwordFieldId);
 
-    if (passwordInput.type === "password") {
-        passwordInput.type = "text";
-        passwordToggle.textContent = "Hide";
+    if (passwordField.type === 'password') {
+        passwordField.type = 'text';
     } else {
-        passwordInput.type = "password";
-        passwordToggle.textContent = "Show";
+        passwordField.type = 'password';
     }
 }
+
+var passwordToggle = document.getElementById("password-toggle");
+if (passwordToggle) {
+    passwordToggle.addEventListener("click", function () {
+        togglePasswordVisibility("login-password");
+    });
+}
+
 
 //password
 function validateLogin(event) {

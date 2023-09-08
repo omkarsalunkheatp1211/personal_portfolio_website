@@ -45,11 +45,30 @@ function togglePasswordVisibility(inputId) {
     }
 }
 
-function togglePasswordVisibility(passwordFieldId) {
-    var passwordField = document.getElementById(passwordFieldId);
-    if (passwordField.type === 'password') {
-        passwordField.type = 'text';
+document.addEventListener("DOMContentLoaded", function () {
+    var passwordToggle = document.getElementById("password-toggle");
+
+    if (passwordToggle) {
+        passwordToggle.addEventListener("click", function () {
+            togglePasswordVisibility("signup-password");
+        });
+    }
+
+    var passwordText = document.getElementById("password-text");
+
+    if (passwordText) {
+        passwordText.addEventListener("click", function () {
+            togglePasswordVisibility("signup-password");
+        });
+    }
+});
+
+function togglePasswordVisibility(inputId) {
+    var passwordInput = document.getElementById(inputId);
+
+    if (passwordInput.type === "password") {
+        passwordInput.type = "text";
     } else {
-        passwordField.type = 'password';
+        passwordInput.type = "password";
     }
 }
