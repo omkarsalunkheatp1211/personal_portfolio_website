@@ -31,10 +31,10 @@ function validateLogin(event) {
         password === storedPassword
     ) {
 
-        document.getElementById("login-message").innerHTML = "Login Successful!,This login page has no database.";
+        document.getElementById("login-message").innerHTML = "Login Successful!";
     } else {
 
-        document.getElementById("login-message").innerHTML = "Invalid Username or Password. Please try again,This login page has no database.";
+        document.getElementById("login-message").innerHTML = "Invalid Username or Password. Please try again.";
     }
 }
 
