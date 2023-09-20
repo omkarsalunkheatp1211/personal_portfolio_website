@@ -6,8 +6,10 @@ var typed = new Typed('#name', {
 
 // Setup and start animation! 'Web Developer', 'Linux Administrator', 'Java Developer'
 var typed = new Typed('#element', {
-    strings: ['Web Developer', 'Linux Administrator', 'Java Developer'],
+    strings: [ 'Linux Administrator','Network Management','Web Developer', 'Java Developer'],
     typeSpeed: 50,
+    backSpeed: 0,
+    loop: true
 });
 
 // Get references to the buttons by their IDs
@@ -16,7 +18,7 @@ var visitHackerRankBtn = document.getElementById('visitHackerRankBtn');
 
 // Add click event listeners to the buttons
 downloadResumeBtn.addEventListener('click', function () {
-    // Open the PDF file in a new tab
+    // Open the PDF file in a new tabp
     window.open('omkar.pdf', '_blank');
 });
 

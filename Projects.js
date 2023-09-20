@@ -3,6 +3,23 @@ var typed = new Typed('#Project', {
     strings: ['Projects'],
     typeSpeed: 80,
 });
+
+// Ansible_one
+// const download_Ansible_one = document.getElementById("download_Ansible_one");
+// const v = document.getElementById("view_Ansible_one");
+
+// download_Ansible_one.addEventListener("click", () => {
+//     window.location.href = "Battery_Status.zip";
+// });
+// title_one.addEventListener("click", () => {
+//     window.open("https://omkarsalunkheatp1211.github.io/Battery_Status/", "_blank");
+// });
+
+// view_Ansible_one.addEventListener("click", () => {
+//     window.open("https://github.com/omkarsalunkheatp1211/Battery_Status", "_blank");
+// });
+
+
 //one
 const download_one = document.getElementById("download_one");
 const view_one = document.getElementById("view_one");

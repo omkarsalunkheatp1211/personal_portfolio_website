@@ -225,20 +225,37 @@ nav ul li a:hover {
 
 /* show hide button */
 
-.password-input button {
-    margin-top: 20px;
-    background-color: rgb(0, 0, 33);
-    color: white;
-    padding: 5px 15px;
-    border: 2px solid rgb(0, 0, 33);
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s;
+.password-text{
+    cursor: pointer;
 }
 
-.password-input button:hover {
-    border: 2px solid rgb(255, 255, 255);
+.password-toggle{
+    cursor: pointer;
+}
+
+/* running-message animation */
+.running-message {
     color: white;
+    padding: 5px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.running-message p {
+    margin: 0;
+    white-space: nowrap;
+    animation: runText 40s linear infinite;
+    font-weight: bold;
+}
+
+@keyframes runText {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 /* responsive */
