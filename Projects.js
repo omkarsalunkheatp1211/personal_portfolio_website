@@ -4,22 +4,59 @@ var typed = new Typed('#Project', {
     typeSpeed: 80,
 });
 
-// Ansible_one
-// const download_Ansible_one = document.getElementById("download_Ansible_one");
-// const v = document.getElementById("view_Ansible_one");
 
-// download_Ansible_one.addEventListener("click", () => {
-//     window.location.href = "Battery_Status.zip";
-// });
-// title_one.addEventListener("click", () => {
-//     window.open("https://omkarsalunkheatp1211.github.io/Battery_Status/", "_blank");
-// });
+// Shell Scripting Project's
+//shell one
+const view_shell_one = document.getElementById("view_shell_one");
 
-// view_Ansible_one.addEventListener("click", () => {
-//     window.open("https://github.com/omkarsalunkheatp1211/Battery_Status", "_blank");
-// });
+view_shell_one.addEventListener("click", () => {
+    window.open("https://github.com/omkarsalunkheatp1211/Package-Manager.git", "_blank");
+});
+
+//shell second
+const view_shell_second = document.getElementById("view_shell_second");
+
+view_shell_second.addEventListener("click", () => {
+    window.open("https://github.com/omkarsalunkheatp1211/Service-Manager-for-Linux.git", "_blank");
+});
+
+//shell third
+const view_shell_third = document.getElementById("view_shell_third");
+
+view_shell_third.addEventListener("click", () => {
+    window.open("https://github.com/omkarsalunkheatp1211/Compressed-File-Manager.git", "_blank");
+});
+
+//shell fourth
+const view_shell_fourth = document.getElementById("view_shell_fourth");
+
+view_shell_fourth.addEventListener("click", () => {
+    window.open("https://github.com/omkarsalunkheatp1211/Create-VHD-in-Linux.git", "_blank");
+});
+
+//shell fifth
+const view_shell_fifth = document.getElementById("view_shell_fifth");
+
+view_shell_fifth.addEventListener("click", () => {
+    window.open("https://github.com/omkarsalunkheatp1211/User_Management_Shell_Scripts.git", "_blank");
+});
+
+//shell six
+const view_shell_six = document.getElementById("view_shell_six");
+
+view_shell_six.addEventListener("click", () => {
+    window.open("https://github.com/omkarsalunkheatp1211/System_Monitoring_Shell_Scripts.git", "_blank");
+});
+
+//shell seven
+const view_shell_seven = document.getElementById("view_shell_seven");
+
+view_shell_seven.addEventListener("click", () => {
+    window.open("https://github.com/omkarsalunkheatp1211/Archive_And_Compresses_Files_Shell_Script_Project.git", "_blank");
+});
 
 
+//Web Development Project's
 //one
 const view_one = document.getElementById("view_one");
 
