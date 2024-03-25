@@ -55,6 +55,27 @@ view_shell_seven.addEventListener("click", () => {
     window.open("https://github.com/omkarsalunkheatp1211/Archive_And_Compresses_Files_Shell_Script_Project.git", "_blank");
 });
 
+// Ansible Scripting Project's
+//Ansible one
+const view_Ansible_one = document.getElementById("view_Ansible_one");
+
+view_Ansible_one.addEventListener("click", () => {
+    window.open("https://github.com/omkarsalunkheatp1211/system-process.git", "_blank");
+});
+
+//Ansible second
+const view_Ansible_second = document.getElementById("view_Ansible_second");
+
+view_Ansible_second.addEventListener("click", () => {
+    window.open("https://github.com/omkarsalunkheatp1211/system-storage.git", "_blank");
+});
+
+//Ansible third
+const view_Ansible_third = document.getElementById("view_Ansible_third");
+
+view_Ansible_third.addEventListener("click", () => {
+    window.open("https://github.com/omkarsalunkheatp1211/system-users.git", "_blank");
+});
 
 //Web Development Project's
 //one
