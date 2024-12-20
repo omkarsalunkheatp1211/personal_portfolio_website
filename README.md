@@ -24,6 +24,8 @@ List the technologies and programming languages used in your personal portfolio 
 - HTML
 - CSS
 - JavaScript
+- type script
+- chatbot
 
 ## Setup
 
