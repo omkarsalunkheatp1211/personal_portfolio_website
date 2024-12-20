@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="images/x-icon" href="omkar.png" />
+    <link rel="stylesheet" href="/stylesheet/style.css">
+    <link rel="icon" type="images/x-icon" href="/images/omkar.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -37,6 +37,28 @@
         </section>
         <!-- <hr> -->
     </main>
+
+    <dir>
+        <!-- Button to open the bot chat -->
+        <button id="chatbot-button">
+            Chat Bot
+        </button>
+
+        <!-- Overlay background for dimming the screen -->
+        <div id="chatbot-overlay"></div>
+
+        <!-- Hidden iframe for the chatbot -->
+        <div id="chatbot-container">
+            <iframe
+                src="https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2024/12/11/17/20241211170802-LMF5OUU3.json"
+                width="100%" height="100%" frameborder="0" id="chatbot-frame" style="border-radius: 10px;">
+            </iframe>
+            <!-- Close button to close the chatbot -->
+            <button id="close-chat-btn">X</button>
+        </div>
+
+    </dir>
+
     <footer>
         <div class="footer">
             <div class="footer-first">
@@ -44,20 +66,22 @@
                         Developer Portfolio</a></h3>
             </div>
             <div class="footer-rights">
-                www.omkarsPortfolop.com | All rights reserved
+                <a href="https://omkar-salunkhe-1211.netlify.app/" target="_blank">omkar-salunkhe-1211.netlify.app | All
+                    rights
+                    reserved</a>
+
             </div>
             <div class="footer-second">
                 <ul>
-                    <li><a href="https://github.com/omkarsalunkheatp1211" target="_blank"><img src="Github.png"
+                    <li><a href="https://github.com/omkarsalunkheatp1211" target="_blank"><img src="/Images/Github.png"
                                 alt="GitHub"></a></li>
-                    <li><a href="https://www.hackerrank.com/omii1211?hr_r=1" target="_blank"><img src="hackerrank.png"
-                                alt="HackerRank"></a></li>
                 </ul>
             </div>
         </div>
     </footer>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script src="about.js"></script>
+    <script src="/JavaScript/about.js"></script>
+    <script src="/javascript/chatbot.js"></script>
 </body>
 
 </html>

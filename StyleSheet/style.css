@@ -487,25 +487,25 @@ h1 {
 /* Styling for the 'Chat with us' button */
 #chatbot-button {
     padding: 10px 15px;
-    background-color: #0a0a36;
-    color: white;
+    background-color: white;
+    color: #0a0a36;
     font-weight: bold;
     border: none;
     border-radius: 50px;
     font-size: 16px;
     cursor: pointer;
     position: fixed;
-    bottom: 20px;
+    bottom: 70px;
     right: 20px;
     z-index: 9999;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 #chatbot-button:hover {
-    background-color: #0a0a36;
-    font-weight: bold;
+    background-color: rgb(224, 221, 221);
+    font-weight: bolder;
     transform: scale(1.1);
-    text-decoration:underline;
+    text-decoration: underline;
     /* Button grows slightly when hovered */
 }
 
@@ -559,5 +559,4 @@ h1 {
 #close-chat-btn:hover {
     background-color: #ff1a1a;
     transform: scale(1.2);
-    /* Slight "pop" effect when hovered */
 }

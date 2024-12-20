@@ -5,7 +5,6 @@ This is a personal portfolio website project that showcases my skills, projects,
 ## Table of Contents
 
 - [Features](#features)
-- [Preview](#preview)
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
 
@@ -17,9 +16,6 @@ List the key features of your personal portfolio website project here.
 - Showcase my skills and expertise
 - Highlight my projects with descriptions and links ( Download and Live Demo links)
 
-## Preview
-
-**Live Demo:** [Omkar's Portfolio](https://omkarsalunkheatp1211.github.io/personal_portfolio_website/index.html)
 
 ## Technologies Used
 
